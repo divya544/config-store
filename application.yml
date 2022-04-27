@@ -1,1 +1,10 @@
-
+server:
+  port: 8081
+  spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: /home/rojan/Documents/config-store
+          search-paths:
+            - '*service'          default-label: master

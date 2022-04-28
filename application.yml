@@ -1,10 +1,10 @@
 server:
   port: 8081
-  spring:
+spring:
   cloud:
     config:
       server:
         git:
-          uri: /home/rojan/Documents/config-store
+          uri: C:\Users\Divya_Intern\Documents\config-store
           search-paths:
-            - '*service'          default-label: master
+            - '*service'

@@ -1,5 +1,4 @@
-drools:
-  myRule: >
+
     import com.drool.model.FDRequest;
     dialect "mvel"
     salience 4
